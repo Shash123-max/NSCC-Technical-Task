@@ -226,7 +226,16 @@ The following additional features were implemented:
 
 ## Screenshots
 
-Screenshots of the completed project are included in the main repository documentation.
+### Personal Introduction Page
+<img width="1920" height="1080" alt="स्क्रीनशॉट 2026-09-07 155233" src="https://github.com/user-attachments/assets/510a2ae4-14d8-4c22-8129-6c195aa3ff81" />
+
+
+The main personal introduction page showcasing the profile, interests and skills.
+
+### Light Mode
+<img width="1920" height="1080" alt="स्क्रीनशॉट 2026-09-07 155346" src="https://github.com/user-attachments/assets/27403340-1d5a-4777-87e2-ac5d6c58325b" />
+
+The Light Mode version of the page, demonstrating the theme toggle feature.
 
 ## Demo Video
 
