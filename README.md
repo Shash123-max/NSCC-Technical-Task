@@ -783,17 +783,16 @@ Screenshots of the completed application can be added here.
 
 ### Signup Dashboard
 
-`Add screenshot <img width="1920" height="1080" alt="स्क्रीनशॉट 2026-09-07 155346" src="https://github.com/user-attachments/assets/d6483d19-2d9e-4aaf-aa3d-a576b08fc510" />`
+ <img width="1920" height="1080" alt="स्क्रीनशॉट 2026-09-07 155346" src="https://github.com/user-attachments/assets/d6483d19-2d9e-4aaf-aa3d-a576b08fc510" />
 
 ### Validation
 
-`<img width="1920" height="1080" alt="स्क्रीनशॉट 2026-09-07 155845" src="https://github.com/user-attachments/assets/eeb7b545-eab7-4ff8-afc0-d266bc270c59" />
-`
+<img width="1920" height="1080" alt="स्क्रीनशॉट 2026-09-07 155845" src="https://github.com/user-attachments/assets/eeb7b545-eab7-4ff8-afc0-d266bc270c59" />
 
 ### User Dashboard
 
-`<img width="1920" height="1080" alt="स्क्रीनशॉट 2026-09-07 160016" src="https://github.com/user-attachments/assets/20a98f74-6bec-432b-a8e3-96e6f1138e82" />
-`
+<img width="1920" height="1080" alt="स्क्रीनशॉट 2026-09-07 160016" src="https://github.com/user-attachments/assets/20a98f74-6bec-432b-a8e3-96e6f1138e82" />
+
 
 ---
 
