@@ -769,29 +769,37 @@ Screenshots of the completed application can be added here.
 
 ### Personal Introduction Page
 
-`Add screenshot here`
+<img width="1920" height="1080" alt="स्क्रीनशॉट 2026-09-07 155233" src="https://github.com/user-attachments/assets/e873dc9c-68a1-4886-a012-4ebc80fad356" />
+
 
 ### Light Mode
 
-`Add screenshot here`
+`<img width="1920" height="1080" alt="स्क्रीनशॉट 2026-09-07 155346" src="https://github.com/user-attachments/assets/f3885084-c935-483e-a6f0-a40629628484" />
+
+
+
+
+`
 
 ### Signup Dashboard
 
-`Add screenshot here`
+`Add screenshot <img width="1920" height="1080" alt="स्क्रीनशॉट 2026-09-07 155346" src="https://github.com/user-attachments/assets/d6483d19-2d9e-4aaf-aa3d-a576b08fc510" />`
 
 ### Validation
 
-`Add screenshot here`
+`<img width="1920" height="1080" alt="स्क्रीनशॉट 2026-09-07 155845" src="https://github.com/user-attachments/assets/eeb7b545-eab7-4ff8-afc0-d266bc270c59" />
+`
 
 ### User Dashboard
 
-`Add screenshot here`
+`<img width="1920" height="1080" alt="स्क्रीनशॉट 2026-09-07 160016" src="https://github.com/user-attachments/assets/20a98f74-6bec-432b-a8e3-96e6f1138e82" />
+`
 
 ---
 
 # GitHub Repository
 
-**Repository:** `Add your GitHub repository link here`
+**Repository:** `https://github.com/Shash123-max/NSCC-Technical-Task`
 
 ---
 
