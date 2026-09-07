@@ -759,7 +759,7 @@ A short demonstration video will show:
 9. Password hash storage
 10. Delete functionality
 
-**Demo Video:** `Add your video link here`
+**Demo Video:** `https://drive.google.com/file/d/1w5Ch_frpLBNtZbD50MhNX_JRha2oXeyX/view?usp=drive_link`
 
 ---
 
