@@ -170,6 +170,7 @@ Through this task, I learned and practiced:
 
 ## Challenges and Solutions
 
+
 ### Form Validation
 
 One of the main challenges was making sure incorrect input was rejected before storing user information.
@@ -213,3 +214,22 @@ https://github.com/Shash123-max/NSCC-Technical-Task
 This task was completed as part of the SRM NSCC Technical Recruitment Technical Domain tasks.
 
 The project includes the source code, documentation, deployment and a demonstration video covering both tasks.
+
+## Screenshots
+
+### Signup Validation Error
+<img width="1920" height="1080" alt="स्क्रीनशॉट 2026-09-07 155845" src="https://github.com/user-attachments/assets/d73de687-54b8-4918-a9c5-9f0b99c83569" />
+
+
+This screenshot shows the validation message displayed when invalid input is submitted.
+
+### User Added Successfully
+<img width="1920" height="1080" alt="स्क्रीनशॉट 2026-09-07 160016" src="https://github.com/user-attachments/assets/a5ec9aa2-9eab-47ca-8a9b-7f0f9d57d70a" />
+
+
+This screenshot shows a user successfully added to the dashboard after passing validation.
+
+### Signup Dashboard
+<img width="1920" height="1080" alt="स्क्रीनशॉट 2026-09-07 155653" src="https://github.com/user-attachments/assets/1f5cd174-76b5-49bb-a52b-216a711b252d" />
+
+This screenshot shows the dashboard displaying the registered user details.
