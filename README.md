@@ -774,7 +774,7 @@ Screenshots of the completed application can be added here.
 
 ### Light Mode
 
-`<img width="1920" height="1080" alt="स्क्रीनशॉट 2026-09-07 155346" src="https://github.com/user-attachments/assets/f3885084-c935-483e-a6f0-a40629628484" />
+<img width="1920" height="1080" alt="स्क्रीनशॉट 2026-09-07 155346" src="https://github.com/user-attachments/assets/f3885084-c935-483e-a6f0-a40629628484" />
 
 
 
@@ -783,7 +783,7 @@ Screenshots of the completed application can be added here.
 
 ### Signup Dashboard
 
- <img width="1920" height="1080" alt="स्क्रीनशॉट 2026-09-07 155346" src="https://github.com/user-attachments/assets/d6483d19-2d9e-4aaf-aa3d-a576b08fc510" />
+<img width="1920" height="1080" alt="स्क्रीनशॉट 2026-09-07 155653" src="https://github.com/user-attachments/assets/6b153cd0-c922-42de-86cf-a3c406335bd3" />
 
 ### Validation
 
