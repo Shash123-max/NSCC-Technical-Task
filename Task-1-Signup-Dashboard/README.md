@@ -1,94 +1,70 @@
-# Task 1 – Signup Form with Validation and Dashboard
+# Task 1 — Signup Form with Validation and Dashboard
 
 ## Overview
 
-This project implements a signup form with client-side validation and a dashboard for displaying registered user details.
+This project is Task 1 of the SRM NSCC Technical Recruitment Tasks.
 
-The task demonstrates form handling, input validation, password hashing, browser storage, DOM manipulation and dynamic table updates.
+It is a Signup Form with client-side validation and a dashboard that displays registered users. The project uses HTML, CSS and JavaScript, with localStorage used to store the user data in the browser.
 
----
-
-## Live Deployment
-
-The project is deployed using GitHub Pages and is publicly accessible.
-
-### Live Demo
+## Live Demo
 
 https://shash123-max.github.io/NSCC-Technical-Task/Task-1-Signup-Dashboard/signup.html
 
----
+## Demo Video
+
+A 2-minute demonstration of the project covering both Task 1 and Task 2.
+
+https://drive.google.com/file/d/1w5Ch_frpLBNtZbD50MhNX_JRha2oXeyX/view?usp=drive_link
 
 ## Features
 
+- Signup form with Username, Email and Password fields
 - Username validation
 - Email validation using Regular Expression (Regex)
-- Password validation
-- SHA-256 password hashing
-- User data stored using localStorage
-- Dynamic user dashboard
-- Delete user functionality
-- Responsive interface
-
----
+- Password validation requiring at least 6 characters
+- Password hashing using the SHA-256 algorithm
+- User details stored using localStorage
+- Dashboard displaying registered users
+- Displays Username, Email and hashed Password
+- Delete button for removing users
+- Data remains available after refreshing the page
+- Responsive layout for different screen sizes
 
 ## Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript
-- Web Crypto API
 - Browser localStorage
-
----
-
-## Project Structure
-
-Task-1-Signup-Dashboard/
-
-- signup.html
-- signup.js
-- style.css
-- README.md
-
----
+- Web Crypto API
+- SHA-256 hashing
+- Regular Expressions
 
 ## Form Validation
 
-The signup form validates three inputs.
+The form checks the following conditions before creating a user:
 
 ### Username
 
-The username cannot be empty.
+The username field cannot be empty.
 
 ### Email
 
-The email is validated using a regular expression.
-
-The regular expression used is:
-
-const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-This checks that the entered email follows a basic valid email format.
+The email address must follow a valid email format using a regular expression.
 
 ### Password
 
 The password must contain at least 6 characters.
 
----
+If any validation fails, the user is shown an alert and the signup process is stopped.
 
 ## Password Hashing
 
-Before storing a user's password, the password is hashed using SHA-256 through the Web Crypto API.
+The password is not stored as plain text.
 
-The hashing process uses crypto.subtle.digest() with the SHA-256 algorithm.
+After validation, the password is converted into a SHA-256 hash using the browser's Web Crypto API.
 
-The original plaintext password is not stored in localStorage.
-
-The dashboard displays only part of the generated hash rather than the original password.
-
-Note: This implementation is intended for the recruitment task. A production authentication system would normally use a password-specific hashing algorithm such as Argon2, bcrypt or scrypt with appropriate salting and secure server side storage.
-
----
+Only the generated hash is stored in localStorage and displayed in the dashboard.
 
 ## Local Storage
 
@@ -98,199 +74,142 @@ The stored data contains:
 
 - Username
 - Email
-- Hashed password
+- Hashed Password
 
-JSON.stringify() is used when storing the user array, while JSON.parse() is used when retrieving it.
+The data is converted into JSON before being stored.
 
----
+When the page is opened, the stored users are retrieved and displayed automatically.
 
 ## Dashboard
 
-After a successful signup, the registered user is dynamically displayed in a table.
+The dashboard displays all registered users in a table.
 
-The dashboard contains:
+The table contains:
 
-- Username
-- Email
-- Partial representation of the hashed password
-- Delete button
+| Field | Description |
+|---|---|
+| Username | Registered username |
+| Email | Registered email |
+| Password | SHA-256 hashed password |
+| Action | Delete button |
 
----
+The delete button removes the selected user from the dashboard and updates localStorage.
 
-## Delete Functionality
+## Project Structure
 
-A Delete button is provided for every registered user.
+Task-1-Signup-Dashboard/
+│
+├── signup.html
+├── signup.js
+├── style.css
+└── README.md
 
-When clicked:
+## How to Run Locally
 
-1. The selected user is removed from the stored array.
-2. The updated data is saved to localStorage.
-3. The dashboard is refreshed.
+1. Download or clone the repository.
+2. Open the `Task-1-Signup-Dashboard` folder.
+3. Open `signup.html` in a web browser.
+4. Enter a username, email and password.
+5. Click the Sign Up button.
+6. The validated user will appear in the dashboard.
 
----
-
-## Responsive Design
-
-The interface includes responsive CSS so that the signup form and dashboard remain usable on smaller screens.
-
-The table is placed inside a horizontally scrollable container when necessary.
-
----
-
-## Testing
-
-The following cases were tested:
-
-- Empty username
-- Invalid email
-- Password shorter than 6 characters
-- Valid username, email and password
-- Password hashing
-- User storage
-- Dashboard rendering
-- Delete functionality
-- Data persistence after refresh
-
----
-
-## Screenshots
-
-Screenshots demonstrating the Task 1 interface and functionality are included in the main project README.
-
-The demonstrated functionality includes:
-
-- Signup form
-- Validation
-- Successful signup
-- Dashboard
-- Hashed password
-- Delete functionality
-
----
-
-## Demo Video
-
-A short demonstration video shows the working features of the project.
-
-Demo:
-
-PASTE YOUR GOOGLE DRIVE VIDEO LINK HERE
-
-The demonstration includes:
-
-- Form validation
-- Successful signup
-- Dashboard
-- Hashed password
-- Delete functionality
-
----
+No external server or database is required.
 
 ## Environment Setup
 
-No external libraries, frameworks or package installations are required.
+The project only requires a modern web browser.
 
-The project runs directly in a modern web browser.
+Recommended browsers:
 
-### Requirements
+- Google Chrome
+- Microsoft Edge
+- Mozilla Firefox
 
-- Modern web browser
-- Internet connection for the deployed version
-
----
-
-## Running Locally
-
-1. Clone or download the repository.
-2. Open the Task-1-Signup-Dashboard folder.
-3. Open signup.html in a modern web browser.
-4. Enter the required signup information.
-5. Submit the form and test the dashboard.
-
----
-
-## Concepts Learned
-
-Through this task, I worked with:
-
-- HTML forms
-- Form submission events
-- JavaScript validation
-- Regular expressions
-- JavaScript functions
-- async / await
-- Web Crypto API
-- SHA-256 hashing
-- localStorage
-- JSON parsing and stringifying
-- DOM manipulation
-- Dynamic HTML generation
-- Responsive CSS
-
----
-
-## Challenges and Solutions
-
-### Input Validation
-
-The form needed to reject invalid information before storing user data.
-
-Solution: JavaScript validation was implemented for username, email and password.
-
-### Password Security
-
-The original password should not be stored directly.
-
-Solution: The password is hashed with SHA-256 before being stored.
-
-### Dynamic Dashboard
-
-The dashboard needed to update whenever a user was added or removed.
-
-Solution: JavaScript dynamically generates the table from the data stored in localStorage.
-
-### Delete Functionality
-
-Users needed to be removable from the dashboard.
-
-Solution: Each table row receives a Delete button that removes the corresponding user from storage.
-
----
-
-## Additional Feature
-
-The Delete functionality was implemented as the brownie-point feature for Task 1.
-
----
+No additional packages or dependencies are required.
 
 ## Deployment
 
-This project is deployed using GitHub Pages from the main branch of the GitHub repository.
+The project is deployed using GitHub Pages.
 
-### Live Deployment
+The live Task 1 page can be accessed here:
 
 https://shash123-max.github.io/NSCC-Technical-Task/Task-1-Signup-Dashboard/signup.html
 
-### Deployment Steps
+## Testing
 
-1. The complete source code was pushed to GitHub.
-2. GitHub Pages was opened from the repository settings.
-3. The main branch was selected as the deployment source.
-4. GitHub Pages generated the public deployment.
-5. The live deployment link was added to this README.
+The following functionality was tested:
 
----
+- Empty username validation
+- Invalid email validation
+- Password shorter than 6 characters
+- Successful signup
+- Password hashing
+- User data storage in localStorage
+- Dashboard display
+- Delete functionality
+- Page refresh and data persistence
+- Responsive layout
+
+## Concepts Learned
+
+Through this task, I learned and practiced:
+
+- HTML form creation
+- Form submission handling
+- JavaScript DOM manipulation
+- Event listeners
+- Input validation
+- Regular Expressions
+- JSON conversion
+- Browser localStorage
+- Asynchronous JavaScript
+- Web Crypto API
+- SHA-256 hashing
+- Dynamic HTML table generation
+- Responsive CSS
+
+## Challenges and Solutions
+
+### Form Validation
+
+One of the main challenges was making sure incorrect input was rejected before storing user information.
+
+This was solved by validating each input field when the form is submitted.
+
+### Password Storage
+
+Storing passwords as plain text is not a good practice.
+
+To address this, the password is hashed using SHA-256 before being stored in localStorage.
+
+### Dynamic Dashboard
+
+The dashboard needs to update whenever a user is added or deleted.
+
+This was handled by storing the users as an array in localStorage and regenerating the table whenever the data changes.
+
+## Additional Features
+
+The project includes the following additional functionality:
+
+- Delete user functionality
+- Persistent data using localStorage
+- Password hashing
+- Responsive interface
+- Automatic dashboard loading when the page opens
+
+## Security Note
+
+This project is intended as a frontend learning project.
+
+SHA-256 hashing demonstrates the concept of not storing the password directly, but a real production authentication system should use a secure backend, proper password hashing algorithms such as Argon2 or bcrypt, secure session management and a database.
 
 ## Repository
 
 https://github.com/Shash123-max/NSCC-Technical-Task
 
----
+## Submission
 
-## Security Note
+This task was completed as part of the SRM NSCC Technical Recruitment Technical Domain tasks.
 
-This project is a front-end demonstration created for the recruitment task.
-
-SHA-256 hashing is used to demonstrate the required password hashing concept.
-
-For a real-world authentication system, passwords should be processed using a dedicated password-hashing algorithm such as Argon2, bcrypt or scrypt with appropriate salting and secure server-side storage.
+The project includes the source code, documentation, deployment and a demonstration video covering both tasks.
